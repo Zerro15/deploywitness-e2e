@@ -1,5 +1,6 @@
 services:
   api:
+    profiles: [production]
     image: example/api
     depends_on: [db]
     networks: [backend]
