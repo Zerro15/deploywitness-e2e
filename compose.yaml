@@ -4,7 +4,7 @@ services:
     depends_on: [db]
     networks: [backend]
     labels:
-      app: demo
+      app: race-updated
   db:
     image: postgres:16
     networks: [backend]
