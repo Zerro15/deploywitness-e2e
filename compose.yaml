@@ -11,7 +11,7 @@ services:
     volumes: [db-data:/var/lib/postgresql/data]
   cache:
     image: redis:7
-    networks: [backend]
+    networks: [isolated]
 volumes:
   db-data: {}
 networks:
