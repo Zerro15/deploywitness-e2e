@@ -6,6 +6,7 @@ permissions:
   contents: read
 jobs:
   compose-analysis:
-    uses: Zerro15/DeployWitness/.github/workflows/deploywitness-pr.yml@e7d9cefe6982c596970dee4df6180343645c0a3f
+    uses: Zerro15/DeployWitness/.github/workflows/deploywitness-pr.yml@82bc325be0f1bf301148cf6f3fa8dc8d213b02aa
     with:
-      deploywitness_ref: e7d9cefe6982c596970dee4df6180343645c0a3f
+      deploywitness_ref: 82bc325be0f1bf301148cf6f3fa8dc8d213b02aa
+
