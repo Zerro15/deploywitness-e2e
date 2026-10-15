@@ -5,6 +5,7 @@ services:
     networks: [backend]
     labels:
       app: demo
+      e2e: pinned-alpha-review
   db:
     image: postgres:16
     networks: [backend]
