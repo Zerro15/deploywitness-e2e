@@ -1,0 +1,11 @@
+name: DeployWitness E2E
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+permissions:
+  contents: read
+jobs:
+  compose-analysis:
+    uses: Zerro15/DeployWitness/.github/workflows/deploywitness-pr.yml@e7d9cefe6982c596970dee4df6180343645c0a3f
+    with:
+      deploywitness_ref: e7d9cefe6982c596970dee4df6180343645c0a3f
