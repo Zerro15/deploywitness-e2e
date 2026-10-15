@@ -2,7 +2,7 @@ services:
   api:
     image: example/api
     depends_on: [db]
-    networks: [backend]
+    networks: [isolated]
     labels:
       app: demo
   db:
